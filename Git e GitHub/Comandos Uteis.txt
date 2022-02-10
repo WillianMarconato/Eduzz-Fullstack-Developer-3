@@ -197,8 +197,216 @@ origin  https://github.com/laravel/laravel.git (push)
 
 
 
+----------------//-------------------------
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO
+$ git clone https://github.com/WillianMarconato/dio-desafio-github-primeiro-repositorio.git
+Cloning into 'dio-desafio-github-primeiro-repositorio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO
+$ cd dio-desafio-github-primeiro-repositorio/
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ ls
+README.md
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Introdu\303\247\303\243o ao Git e ao GitHub/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Introdu\303\247\303\243o ao Git e ao GitHub/Comandos Uteis.txt"
 
 
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "Inclusão das Anotações do curso Git/GitHub"
+[main 6ff7298] Inclusão das Anotações do curso Git/GitHub
+ 1 file changed, 228 insertions(+)
+ create mode 100644 "Introdu\303\247\303\243o ao Git e ao GitHub/Comandos Uteis.txt"
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+MARCONATO@MARCONATO MINGW64 /c/teste/DIO/dio-desafio-github-primeiro-repositorio (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.74 KiB | 889.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/WillianMarconato/dio-desafio-github-primeiro-repositorio.git
+   72170ff..6ff7298  main -> main
+
+
+------------------------//-------------------------------------
+
+Utilizados no Desafio
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Eduzz-Fullstack-Developer-3 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git add .
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Eduzz-Fullstack-Developer-3 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git add *
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Eduzz-Fullstack-Developer-3 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git commit -m "Criação das pastas"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Eduzz-Fullstack-Developer-3 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git init
+Reinitialized existing Git repository in D:/Bootcamp Fullstack Developer/.git/
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Eduzz-Fullstack-Developer-3 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git add *
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+        modified:   Eduzz-Fullstack-Developer-3 (untracked content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer (master)
+$ cd Eduzz-Fullstack-Developer-3/
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer/Eduzz-Fullstack-Developer-3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git e GitHub/
+        Scrum/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer/Eduzz-Fullstack-Developer-3 (main)
+$ git add *
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer/Eduzz-Fullstack-Developer-3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Git e GitHub/Comandos Uteis.txt
+        new file:   "Scrum/Curso r\303\241pido de Scrum.txt"
+
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer/Eduzz-Fullstack-Developer-3 (main)
+$ git commit -m "Criação das Pastas"
+[main 04d2287] Criação das Pastas
+ 2 files changed, 403 insertions(+)
+ create mode 100644 Git e GitHub/Comandos Uteis.txt
+ create mode 100644 "Scrum/Curso r\303\241pido de Scrum.txt"
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer/Eduzz-Fullstack-Developer-3 (main)
+$ git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 3.82 KiB | 1.91 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/WillianMarconato/Eduzz-Fullstack-Developer-3.git
+   5f05f48..04d2287  main -> main
+
+MARCONATO@MARCONATO MINGW64 /d/Bootcamp Fullstack Developer/Eduzz-Fullstack-Developer-3 (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 
 
 
