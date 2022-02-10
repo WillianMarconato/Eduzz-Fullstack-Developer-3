@@ -1,0 +1,175 @@
+Objetivos de Negócio > Requisitos >>>
+>>>Processo de Desenvolvimento> Concepção, Análise e Design, Desenvolvimento, Testes e Implantação 
+>>>Software
+
+
+SCRUM
+- Transparência
+- Adaptação
+- Inspeção
+
+Conversar mais e escrever menos.
+Demosntrar o software contantemente aos usuários e obter feedbacks constantes.
+Requisitos mudam ao longo do tempo.
+Apender progressivamente com o uso do software.
+
+
+PO 
+- Define o Product Backlog
+- Ele que prioriza Backlog
+- Garante que o time de desenvolvimento entenda os itens do Backlog
+
+Scrum Master
+- Garantir o uso do Scrum
+- Não é gerente de Projetos
+- Age como facilitador
+- Auxilia o PO no planejamento e estimativas
+- Auxilia a remover impecilios
+- Treina o tiome em autogerenciamento
+
+Time de Desenvolvimento
+- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja
+tudo que for necesário para entregar o software funcionando.
+
+
+CERIMÔNIAS DO SCRUM
+Time Box - Tempo máximo para fazer uma cerimônia ou Sprint
+Sprint - É o principal evento do SCRUM
+Duração de 1 sprint - max 30 dias.
+
+Composição da Sprint
+- Planejamento da Sprint
+- Reuniões Diárias (Daily Meeting)- 15min
+- Revisão da Sprint (Review)
+- Retrospectiva da Sprint
+
+Planejamento da Sprint
+Quem participa: PO, DEV E Scrum master
+8 horas
+nas primeiras 4: O que fazer?
+ultimas 4: Como fazer?
+
+Planning Poker
+Cada um opina a estimativa de cada tarefa (esforço)
+Depois defeine se tudo o que o PO definiu se vai ser possível.
+
+DEV no Daily Meeting
+- O que fez? O que ta programado? Tem algum empedimento?
+
+Revisão da Sprint (Review)
+Time DEV apresenta para o PO o trabalho feito
+
+Retrospectiva da Sprint
+Reunião da equipe para Lições Aprendidas (transparência)
+
+
+Diferença Prática Tradiconal x Ágil
+
+
+FUNDAMENTOS DE UM PROJETO ÁGIL
+
+Papéis e Responsabilidades do PO
+- Ele tem a visão do que será desenvolvido, as necessidades a serem atendidas.
+- Define a ordem que os itens serão executados.
+- Representante da áerea de negócios.
+- PO não é um comite,
+- Define o Backlog.
+- Prioriza as fuincionalides de acordo com o valor do negócio.
+- Garante que o time DEV entenda os itens do Backlog no nível necessário.
+
+
+Release Plammomg
+Liberação ou lançamento de software. é o lançamento de nova versão oficial de produto de software.
+Existem 2 tipos:
+- Release planning de Multiplas Squads.
+- Release planning de Projeto.
+
+PO - Entende a demanda e extrai o maior valor possível.
+
+
+ANALISANDO ESCOPO E DEFININDO PRIORIDADES
+
+PRODUTO BACKLOG
+- É composto por épicos e estórias
+ÉPICOS - Incremento sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir.
+ESTÓRIA - Detalhamentos dos épicos, um épico normalmente se divide em várias estórias, onde ficam descritos o que deve acontecer e suas regras de negócio.
+
+Método indicado para definir Escopo:
+Entender qual o ganhjo antes de definir o escopo
+
+Riscos positivos - Priorizar itens do bp
+
+PAPEL DO PO NA TRANSFORMAÇÃO DIGITAL
+
+
+*CONCEITOS*
+
+ESTÓRIAS x TAREFAS
+
+ÉPICO > ESTÓRIA > TAREFA
+Estória = Uma tarefa descrita em nível de Negócio.
+O que é uma Tarefa: Um conjuntos de atividades que o o time de desenvolvimento deve desempenhar para entregar a estória.
+
+Critérios de Aceite, Estimativa e Planejamento de Tarefas.
+
+- Critério de Aceite:
+É uma lista de critérios que precisam ser alcançados para que a User Story atenda os requisitos do usuário e seja aceita pelo PO;
+Os critérios de aceitação têm o obejtivo de: definir limites para as user stories. Ajudar o P.O a detalhar em alto nível o que é necessário para entregar valor ao cliente.
+
+Planning POker > Mensuração das Tarefas ou estórias.
+
+
+ROTINAS DE UM TIME ÁGIL (RITOS)
+Dayli e Restropectiva
+Dayli focada nas tarefas do dia a dia.
+Restropectiva só ao final da sprint com a presença SM e se possível do PO.
+
+Refinamento
+Acontece um passo antes da Planning (no final da sprint anterior)
+Todos participam
+
+Review
+Mostrar o trabalho feito na Sprint anterior. Todos participam incluindo stack holders
+- Verificar se demanda agrega valor ao negócio.
+Se agreça valor ao negócio?
+
+
+Maturidade da equipe
+- Transparência
+- Inspeção
+- Adaptação
+é o time que de fato consegue aplicar o Scrum. Questiona e ajuda o PO.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
